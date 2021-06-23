@@ -7,9 +7,9 @@ A loop helper plugin inspired by Blade.
 
 ### 1. Install
 ```
-yarn add vue-loop
+yarn add vue-loop-helper
 # or
-npm i vue-loop --save
+npm i vue-loop-helper --save
 ```
 
 ### 2. Plug-in

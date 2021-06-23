@@ -1,5 +1,5 @@
 {
-  "name": "vue-loop",
+  "name": "vue-loop-helper",
   "version": "0.0.1",
   "description": "Vue Loop Plugin",
   "main": "dist/vue-loop.js",
