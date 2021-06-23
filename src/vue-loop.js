@@ -19,19 +19,17 @@ export default class VueLoop {
       /**
        * VueLoop init hook, injected into each instances init hooks list.
        */
-      beforeCreate () {
-        Vue.mixin({
-          beforeCreate() {
-            this.$loopManager = new LoopManager()
-            Object.defineProperty(this, '$loop', {
-              get() {
-                return this.$loopManager.getLastLoop()
-              }
-            })
+      beforeCreate() {
+        this.$loopManager = new LoopManager()
+        Object.defineProperty(this, '$loop', {
+          get() {
+            return this.$loopManager.getLastLoop()
           }
         })
       }
     })
+
+    const renderList = Vue.prototype._l
 
     Vue.prototype._l = function(val, render) {
       this.$loopManager.addLoop(val)
