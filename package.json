@@ -1,6 +1,6 @@
 {
   "name": "vue-loop-helper",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Vue Loop Plugin",
   "main": "dist/vue-loop.js",
   "types": "src/types/index.d.ts",
