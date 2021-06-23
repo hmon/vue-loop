@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+*.bak
+.idea
+
+# Project exclude paths
+/dist/
